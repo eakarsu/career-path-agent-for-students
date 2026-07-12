@@ -1,0 +1,31 @@
+{
+  "id": "career-path-agent-for-students",
+  "title": "Career Path Agent For Students App",
+  "industry": "Education & Training",
+  "industryId": "education-training",
+  "specialization": "Career Path Agent For Students",
+  "sourcePlatformGroup": "education-training-platform",
+  "sources": [
+    "AICareerPathAgentForStudents",
+    "AICodingInterviewAgent",
+    "AILearningDevelopmentPath",
+    "AIMultiAgentClassroom",
+    "MockInterview"
+  ],
+  "featureCount": 223,
+  "candidateFeatureCount": 268,
+  "eliminatedSimilarFeatures": 45,
+  "evidenceCount": 842,
+  "aiPageCount": 0,
+  "sourceAIPageCount": 0,
+  "featureEvidencePolicy": "Existing source routes, pages, APIs, models, schemas, and navigation only",
+  "optimizationPolicy": "Equivalent feature names are consolidated once per industry and assigned to one canonical app owner",
+  "database": "database.sqlite",
+  "databaseSeed": {
+    "seededProjects": 2,
+    "seededTables": 13,
+    "seededRows": 207
+  },
+  "visibleFeatureCount": 26,
+  "featureVisibilityMode": "seeded-or-ai"
+}
