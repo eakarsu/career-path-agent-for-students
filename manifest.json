@@ -12,10 +12,10 @@
     "AIMultiAgentClassroom",
     "MockInterview"
   ],
-  "featureCount": 223,
-  "candidateFeatureCount": 268,
-  "eliminatedSimilarFeatures": 45,
-  "evidenceCount": 842,
+  "featureCount": 229,
+  "candidateFeatureCount": 278,
+  "eliminatedSimilarFeatures": 49,
+  "evidenceCount": 850,
   "aiPageCount": 0,
   "sourceAIPageCount": 0,
   "featureEvidencePolicy": "Existing source routes, pages, APIs, models, schemas, and navigation only",
@@ -26,6 +26,6 @@
     "seededTables": 13,
     "seededRows": 207
   },
-  "visibleFeatureCount": 26,
+  "visibleFeatureCount": 25,
   "featureVisibilityMode": "seeded-or-ai"
 }

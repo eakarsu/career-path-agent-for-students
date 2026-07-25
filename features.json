@@ -1,5 +1,126 @@
 [
   {
+    "name": "Accommodation Planner",
+    "canonicalKey": "accommodation planner",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/AccommodationPlanner",
+      "/accommodation-planner"
+    ],
+    "sourceProjects": [
+      "AIMultiAgentClassroom"
+    ],
+    "consolidatedFromApps": [
+      "education-training/career-path-agent-for-students"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIMultiAgentClassroom",
+        "path": "frontend/src/App.js:47",
+        "route": "/accommodation-planner",
+        "originApp": "education-training/career-path-agent-for-students"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIMultiAgentClassroom",
+        "path": "frontend/src/pages/AccommodationPlanner.js",
+        "route": "/AccommodationPlanner",
+        "originApp": "education-training/career-path-agent-for-students"
+      }
+    ]
+  },
+  {
+    "name": "Agent Student Heatmap",
+    "canonicalKey": "agent heatmap student",
+    "aliases": [],
+    "kinds": [
+      "api",
+      "page"
+    ],
+    "routes": [
+      "/agent-student-heatmap",
+      "/customViews/AgentStudentHeatmap"
+    ],
+    "sourceProjects": [
+      "AIMultiAgentClassroom"
+    ],
+    "consolidatedFromApps": [
+      "education-training/career-path-agent-for-students"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIMultiAgentClassroom",
+        "path": "backend/src/routes/customViews.js:138",
+        "route": "/agent-student-heatmap",
+        "originApp": "education-training/career-path-agent-for-students"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIMultiAgentClassroom",
+        "path": "frontend/src/pages/customViews/AgentStudentHeatmap.jsx",
+        "route": "/customViews/AgentStudentHeatmap",
+        "originApp": "education-training/career-path-agent-for-students"
+      }
+    ]
+  },
+  {
+    "name": "Agentic Career Coach Guiding Multi Week Journey Wi Page",
+    "canonicalKey": "agentic career coach guiding journey multi week wi",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/AgenticCareerCoachGuidingMultiWeekJourneyWiPage"
+    ],
+    "sourceProjects": [
+      "AICareerPathAgentForStudents"
+    ],
+    "consolidatedFromApps": [
+      "education-training/career-path-agent-for-students"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AICareerPathAgentForStudents",
+        "path": "frontend/src/pages/AgenticCareerCoachGuidingMultiWeekJourneyWiPage.jsx",
+        "route": "/AgenticCareerCoachGuidingMultiWeekJourneyWiPage",
+        "originApp": "education-training/career-path-agent-for-students"
+      }
+    ]
+  },
+  {
+    "name": "Agents Page",
+    "canonicalKey": "agent",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/AgentsPage"
+    ],
+    "sourceProjects": [
+      "AICodingInterviewAgent"
+    ],
+    "consolidatedFromApps": [
+      "education-training/career-path-agent-for-students"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AICodingInterviewAgent",
+        "path": "frontend/src/pages/AgentsPage.js",
+        "route": "/AgentsPage",
+        "originApp": "education-training/career-path-agent-for-students"
+      }
+    ]
+  },
+  {
     "name": "AI Agents",
     "canonicalKey": "agent ai",
     "aliases": [],
@@ -52,6 +173,32 @@
         "sourceProject": "AICareerPathAgentForStudents",
         "path": "backend/routes/jobTrends.js:64",
         "route": "/ai-analyze",
+        "originApp": "education-training/career-path-agent-for-students"
+      }
+    ]
+  },
+  {
+    "name": "AI Assess",
+    "canonicalKey": "ai assess",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/ai-assess"
+    ],
+    "sourceProjects": [
+      "AICareerPathAgentForStudents"
+    ],
+    "consolidatedFromApps": [
+      "education-training/career-path-agent-for-students"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AICareerPathAgentForStudents",
+        "path": "backend/routes/assessments.js:64",
+        "route": "/ai-assess",
         "originApp": "education-training/career-path-agent-for-students"
       }
     ]
@@ -157,6 +304,71 @@
         "path": "backend/routes/skills.js:64",
         "route": "/ai-gap-analysis",
         "originApp": "education-training/career-path-agent-for-students"
+      }
+    ]
+  },
+  {
+    "name": "AI History",
+    "canonicalKey": "ai history",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/AIHistory",
+      "/ai-history",
+      "ai-history"
+    ],
+    "sourceProjects": [
+      "AICareerPathAgentForStudents",
+      "AILabSimulationPlatform"
+    ],
+    "consolidatedFromApps": [
+      "education-training/career-path-agent-for-students",
+      "education-training/data-labeling-platform"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AICareerPathAgentForStudents",
+        "path": "frontend/src/App.jsx:92",
+        "route": "/ai-history",
+        "originApp": "education-training/career-path-agent-for-students"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AICareerPathAgentForStudents",
+        "path": "frontend/src/components/Layout.jsx:29",
+        "route": "/ai-history",
+        "originApp": "education-training/career-path-agent-for-students"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AICareerPathAgentForStudents",
+        "path": "frontend/src/pages/AIHistory.jsx",
+        "route": "/AIHistory",
+        "originApp": "education-training/career-path-agent-for-students"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AICareerPathAgentForStudents",
+        "path": "frontend/src/pages/Dashboard.jsx:29",
+        "route": "/ai-history",
+        "originApp": "education-training/career-path-agent-for-students"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AILabSimulationPlatform",
+        "path": "client/src/App.js:34",
+        "route": "ai-history",
+        "originApp": "education-training/data-labeling-platform"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AILabSimulationPlatform",
+        "path": "client/src/pages/AIHistory.js",
+        "route": "/AIHistory",
+        "originApp": "education-training/data-labeling-platform"
       }
     ]
   },
@@ -309,7 +521,6 @@
     "canonicalKey": "ai",
     "aliases": [
       "AI Features",
-      "AI History",
       "AI Tools Page"
     ],
     "kinds": [
@@ -317,18 +528,13 @@
     ],
     "routes": [
       "/AIFeatures",
-      "/AIHistory",
       "/AITools",
       "/AIToolsPage",
       "/ai-features",
-      "/ai-history",
-      "/ai-tools",
-      "ai-history"
+      "/ai-tools"
     ],
     "sourceProjects": [
-      "AICareerPathAgentForStudents",
       "AIDataLabelingPlatform",
-      "AILabSimulationPlatform",
       "AILanguageLearningCompanion",
       "AILearningDevelopmentPath",
       "AIMultiAgentClassroom"
@@ -338,48 +544,6 @@
       "education-training/data-labeling-platform"
     ],
     "evidence": [
-      {
-        "kind": "page",
-        "sourceProject": "AICareerPathAgentForStudents",
-        "path": "frontend/src/App.jsx:92",
-        "route": "/ai-history",
-        "originApp": "education-training/career-path-agent-for-students"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AICareerPathAgentForStudents",
-        "path": "frontend/src/components/Layout.jsx:29",
-        "route": "/ai-history",
-        "originApp": "education-training/career-path-agent-for-students"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AICareerPathAgentForStudents",
-        "path": "frontend/src/pages/AIHistory.jsx",
-        "route": "/AIHistory",
-        "originApp": "education-training/career-path-agent-for-students"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AICareerPathAgentForStudents",
-        "path": "frontend/src/pages/Dashboard.jsx:29",
-        "route": "/ai-history",
-        "originApp": "education-training/career-path-agent-for-students"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AILabSimulationPlatform",
-        "path": "client/src/App.js:34",
-        "route": "ai-history",
-        "originApp": "education-training/data-labeling-platform"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AILabSimulationPlatform",
-        "path": "client/src/pages/AIHistory.js",
-        "route": "/AIHistory",
-        "originApp": "education-training/data-labeling-platform"
-      },
       {
         "kind": "page",
         "sourceProject": "AILearningDevelopmentPath",
@@ -460,127 +624,6 @@
     ]
   },
   {
-    "name": "Accommodation Planner",
-    "canonicalKey": "accommodation planner",
-    "aliases": [],
-    "kinds": [
-      "page"
-    ],
-    "routes": [
-      "/AccommodationPlanner",
-      "/accommodation-planner"
-    ],
-    "sourceProjects": [
-      "AIMultiAgentClassroom"
-    ],
-    "consolidatedFromApps": [
-      "education-training/career-path-agent-for-students"
-    ],
-    "evidence": [
-      {
-        "kind": "page",
-        "sourceProject": "AIMultiAgentClassroom",
-        "path": "frontend/src/App.js:47",
-        "route": "/accommodation-planner",
-        "originApp": "education-training/career-path-agent-for-students"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIMultiAgentClassroom",
-        "path": "frontend/src/pages/AccommodationPlanner.js",
-        "route": "/AccommodationPlanner",
-        "originApp": "education-training/career-path-agent-for-students"
-      }
-    ]
-  },
-  {
-    "name": "Agent Student Heatmap",
-    "canonicalKey": "agent heatmap student",
-    "aliases": [],
-    "kinds": [
-      "api",
-      "page"
-    ],
-    "routes": [
-      "/agent-student-heatmap",
-      "/customViews/AgentStudentHeatmap"
-    ],
-    "sourceProjects": [
-      "AIMultiAgentClassroom"
-    ],
-    "consolidatedFromApps": [
-      "education-training/career-path-agent-for-students"
-    ],
-    "evidence": [
-      {
-        "kind": "api",
-        "sourceProject": "AIMultiAgentClassroom",
-        "path": "backend/src/routes/customViews.js:138",
-        "route": "/agent-student-heatmap",
-        "originApp": "education-training/career-path-agent-for-students"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIMultiAgentClassroom",
-        "path": "frontend/src/pages/customViews/AgentStudentHeatmap.jsx",
-        "route": "/customViews/AgentStudentHeatmap",
-        "originApp": "education-training/career-path-agent-for-students"
-      }
-    ]
-  },
-  {
-    "name": "Agentic Career Coach Guiding Multi Week Journey Wi Page",
-    "canonicalKey": "agentic career coach guiding journey multi week wi",
-    "aliases": [],
-    "kinds": [
-      "page"
-    ],
-    "routes": [
-      "/AgenticCareerCoachGuidingMultiWeekJourneyWiPage"
-    ],
-    "sourceProjects": [
-      "AICareerPathAgentForStudents"
-    ],
-    "consolidatedFromApps": [
-      "education-training/career-path-agent-for-students"
-    ],
-    "evidence": [
-      {
-        "kind": "page",
-        "sourceProject": "AICareerPathAgentForStudents",
-        "path": "frontend/src/pages/AgenticCareerCoachGuidingMultiWeekJourneyWiPage.jsx",
-        "route": "/AgenticCareerCoachGuidingMultiWeekJourneyWiPage",
-        "originApp": "education-training/career-path-agent-for-students"
-      }
-    ]
-  },
-  {
-    "name": "Agents Page",
-    "canonicalKey": "agents",
-    "aliases": [],
-    "kinds": [
-      "page"
-    ],
-    "routes": [
-      "/AgentsPage"
-    ],
-    "sourceProjects": [
-      "AICodingInterviewAgent"
-    ],
-    "consolidatedFromApps": [
-      "education-training/career-path-agent-for-students"
-    ],
-    "evidence": [
-      {
-        "kind": "page",
-        "sourceProject": "AICodingInterviewAgent",
-        "path": "frontend/src/pages/AgentsPage.js",
-        "route": "/AgentsPage",
-        "originApp": "education-training/career-path-agent-for-students"
-      }
-    ]
-  },
-  {
     "name": "Ainew Js Scaffold But0 Mounted Chat Style AI Endp Page",
     "canonicalKey": "ai ainew but0 chat endp js mounted scaffold style",
     "aliases": [],
@@ -602,32 +645,6 @@
         "sourceProject": "AICareerPathAgentForStudents",
         "path": "frontend/src/pages/AinewJsScaffoldBut0MountedChatStyleAiEndpPage.jsx",
         "route": "/AinewJsScaffoldBut0MountedChatStyleAiEndpPage",
-        "originApp": "education-training/career-path-agent-for-students"
-      }
-    ]
-  },
-  {
-    "name": "Analytics Page",
-    "canonicalKey": "analytics",
-    "aliases": [],
-    "kinds": [
-      "page"
-    ],
-    "routes": [
-      "/AnalyticsPage"
-    ],
-    "sourceProjects": [
-      "AICodingInterviewAgent"
-    ],
-    "consolidatedFromApps": [
-      "education-training/career-path-agent-for-students"
-    ],
-    "evidence": [
-      {
-        "kind": "page",
-        "sourceProject": "AICodingInterviewAgent",
-        "path": "frontend/src/pages/AnalyticsPage.js",
-        "route": "/AnalyticsPage",
         "originApp": "education-training/career-path-agent-for-students"
       }
     ]
@@ -863,6 +880,32 @@
     ]
   },
   {
+    "name": "Bulk",
+    "canonicalKey": "bulk",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/bulk"
+    ],
+    "sourceProjects": [
+      "AICodingInterviewAgent"
+    ],
+    "consolidatedFromApps": [
+      "education-training/career-path-agent-for-students"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AICodingInterviewAgent",
+        "path": "backend/routes/replays.js:58",
+        "route": "/bulk",
+        "originApp": "education-training/career-path-agent-for-students"
+      }
+    ]
+  },
+  {
     "name": "Bullet Generator",
     "canonicalKey": "bullet generator",
     "aliases": [],
@@ -942,7 +985,8 @@
     ],
     "routes": [
       "/analyze/:candidate_id",
-      "/heatmap/:candidate_id"
+      "/heatmap/:candidate_id",
+      "/progress/:candidateId"
     ],
     "sourceProjects": [
       "AICodingInterviewAgent"
@@ -951,6 +995,13 @@
       "education-training/career-path-agent-for-students"
     ],
     "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AICodingInterviewAgent",
+        "path": "backend/routes/interviewWorkflow.js:67",
+        "route": "/progress/:candidateId",
+        "originApp": "education-training/career-path-agent-for-students"
+      },
       {
         "kind": "api",
         "sourceProject": "AICodingInterviewAgent",
@@ -1005,7 +1056,7 @@
   },
   {
     "name": "Candidates Csv",
-    "canonicalKey": "candidates csv",
+    "canonicalKey": "candidate csv",
     "aliases": [],
     "kinds": [
       "api"
@@ -1480,13 +1531,11 @@
       "AILabSimulationPlatform",
       "AILanguageLearningCompanion",
       "AILearningDevelopmentPath",
-      "AIMultiAgentClassroom",
-      "AISalesTrainingSimulator"
+      "AIMultiAgentClassroom"
     ],
     "consolidatedFromApps": [
       "education-training/career-path-agent-for-students",
-      "education-training/data-labeling-platform",
-      "education-training/sales-training-simulator"
+      "education-training/data-labeling-platform"
     ],
     "evidence": [
       {
@@ -1582,20 +1631,6 @@
       },
       {
         "kind": "api",
-        "sourceProject": "AILearningDevelopmentPath",
-        "path": "backend/src/services/openrouter.js:20",
-        "route": "/api/v1/chat/completions",
-        "originApp": "education-training/career-path-agent-for-students"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIMultiAgentClassroom",
-        "path": "backend/src/routes/ai.js:20",
-        "route": "/api/v1/chat/completions",
-        "originApp": "education-training/career-path-agent-for-students"
-      },
-      {
-        "kind": "api",
         "sourceProject": "AIMultiAgentClassroom",
         "path": "backend/src/routes/misconception-realtime.js:27",
         "route": "/api/v1/chat/completions",
@@ -1631,13 +1666,6 @@
       },
       {
         "kind": "api",
-        "sourceProject": "AISalesTrainingSimulator",
-        "path": "server/services/openrouter.js:29",
-        "route": "/api/v1/chat/completions",
-        "originApp": "education-training/sales-training-simulator"
-      },
-      {
-        "kind": "api",
         "sourceProject": "AILabSimulationPlatform",
         "path": "server/routes/lab-assistant-agent.js:29",
         "route": "/api/v1/chat/completions",
@@ -1668,13 +1696,6 @@
         "kind": "api",
         "sourceProject": "AILabSimulationPlatform",
         "path": "server/routes/vr-lab-integration.js:29",
-        "route": "/api/v1/chat/completions",
-        "originApp": "education-training/data-labeling-platform"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AILabSimulationPlatform",
-        "path": "server/utils/openrouter.js:21",
         "route": "/api/v1/chat/completions",
         "originApp": "education-training/data-labeling-platform"
       },
@@ -2039,15 +2060,12 @@
   },
   {
     "name": "Custom Views",
-    "canonicalKey": "custom view",
-    "aliases": [
-      "Custom Views Page"
-    ],
+    "canonicalKey": "custom",
+    "aliases": [],
     "kinds": [
       "page"
     ],
     "routes": [
-      "/CustomViewsPage",
       "/custom-views"
     ],
     "sourceProjects": [
@@ -2110,27 +2128,6 @@
       },
       {
         "kind": "page",
-        "sourceProject": "AIVRTrainingScenarioGenerator",
-        "path": "frontend/src/App.jsx:121",
-        "route": "/custom-views",
-        "originApp": "education-training/sales-training-simulator"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AiPersonalizedTutor",
-        "path": "frontend/src/App.jsx:564",
-        "route": "/custom-views",
-        "originApp": "education-training/sales-training-simulator"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AiPersonalizedTutor",
-        "path": "frontend/src/App.jsx:5849",
-        "route": "/custom-views",
-        "originApp": "education-training/sales-training-simulator"
-      },
-      {
-        "kind": "page",
         "sourceProject": "AIDataLabelingPlatform",
         "path": "frontend/src/App.jsx:189",
         "route": "/custom-views",
@@ -2157,6 +2154,55 @@
         "route": "/custom-views",
         "originApp": "education-training/data-labeling-platform"
       },
+      {
+        "kind": "page",
+        "sourceProject": "AIVRTrainingScenarioGenerator",
+        "path": "frontend/src/App.jsx:118",
+        "route": "/custom-views",
+        "originApp": "education-training/sales-training-simulator"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AiPersonalizedTutor",
+        "path": "frontend/src/App.jsx:564",
+        "route": "/custom-views",
+        "originApp": "education-training/sales-training-simulator"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AiPersonalizedTutor",
+        "path": "frontend/src/App.jsx:5849",
+        "route": "/custom-views",
+        "originApp": "education-training/sales-training-simulator"
+      }
+    ]
+  },
+  {
+    "name": "Custom Views Page",
+    "canonicalKey": "custom view",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/CustomViewsPage"
+    ],
+    "sourceProjects": [
+      "AICareerPathAgentForStudents",
+      "AICodingInterviewAgent",
+      "AIDataLabelingPlatform",
+      "AIExamProctoringSystem",
+      "AILearningDevelopmentPath",
+      "AIMultiAgentClassroom",
+      "AIVRTrainingScenarioGenerator",
+      "AiPersonalizedTutor"
+    ],
+    "consolidatedFromApps": [
+      "education-training/career-path-agent-for-students",
+      "education-training/data-labeling-platform",
+      "education-training/sales-training-simulator"
+    ],
+    "evidence": [
       {
         "kind": "page",
         "sourceProject": "AICareerPathAgentForStudents",
@@ -2187,20 +2233,6 @@
       },
       {
         "kind": "page",
-        "sourceProject": "AIVRTrainingScenarioGenerator",
-        "path": "frontend/src/pages/CustomViewsPage.jsx",
-        "route": "/CustomViewsPage",
-        "originApp": "education-training/sales-training-simulator"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AiPersonalizedTutor",
-        "path": "frontend/src/pages/CustomViewsPage.jsx",
-        "route": "/CustomViewsPage",
-        "originApp": "education-training/sales-training-simulator"
-      },
-      {
-        "kind": "page",
         "sourceProject": "AIDataLabelingPlatform",
         "path": "frontend/src/pages/CustomViewsPage.jsx",
         "route": "/CustomViewsPage",
@@ -2212,6 +2244,20 @@
         "path": "frontend/src/pages/CustomViewsPage.js",
         "route": "/CustomViewsPage",
         "originApp": "education-training/data-labeling-platform"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIVRTrainingScenarioGenerator",
+        "path": "frontend/src/pages/CustomViewsPage.jsx",
+        "route": "/CustomViewsPage",
+        "originApp": "education-training/sales-training-simulator"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AiPersonalizedTutor",
+        "path": "frontend/src/pages/CustomViewsPage.jsx",
+        "route": "/CustomViewsPage",
+        "originApp": "education-training/sales-training-simulator"
       }
     ]
   },
@@ -2869,7 +2915,7 @@
       {
         "kind": "api",
         "sourceProject": "AIMultiAgentClassroom",
-        "path": "backend/src/routes/ai.js:489",
+        "path": "backend/src/routes/ai.js:470",
         "route": "/difficulty-adapt",
         "originApp": "education-training/career-path-agent-for-students"
       }
@@ -3137,17 +3183,17 @@
       },
       {
         "kind": "api",
-        "sourceProject": "AiPersonalizedTutor",
-        "path": "backend/src/config/database.js:2",
-        "route": "../../.env",
-        "originApp": "education-training/sales-training-simulator"
-      },
-      {
-        "kind": "api",
         "sourceProject": "AIDataLabelingPlatform",
         "path": "backend/server.js:1",
         "route": "../.env",
         "originApp": "education-training/data-labeling-platform"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AiPersonalizedTutor",
+        "path": "backend/src/config/database.js:2",
+        "route": "../../.env",
+        "originApp": "education-training/sales-training-simulator"
       }
     ]
   },
@@ -4013,7 +4059,7 @@
   },
   {
     "name": "Gap0 Mounted Chat Style AI Endpoints Despite The Prod Page",
-    "canonicalKey": "ai chat despite endpoints gap0 mounted prod style the",
+    "canonicalKey": "ai chat despite endpoint gap0 mounted prod style the",
     "aliases": [],
     "kinds": [
       "page"
@@ -4073,6 +4119,32 @@
     ]
   },
   {
+    "name": "Grade",
+    "canonicalKey": "grade",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/submissions/:id/grade"
+    ],
+    "sourceProjects": [
+      "AIMultiAgentClassroom"
+    ],
+    "consolidatedFromApps": [
+      "education-training/career-path-agent-for-students"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIMultiAgentClassroom",
+        "path": "backend/src/routes/teacher.js:100",
+        "route": "/submissions/:id/grade",
+        "originApp": "education-training/career-path-agent-for-students"
+      }
+    ]
+  },
+  {
     "name": "Grade Quiz",
     "canonicalKey": "grade quiz",
     "aliases": [],
@@ -4092,7 +4164,7 @@
       {
         "kind": "api",
         "sourceProject": "AIMultiAgentClassroom",
-        "path": "backend/src/routes/ai.js:220",
+        "path": "backend/src/routes/ai.js:201",
         "route": "/grade-quiz",
         "originApp": "education-training/career-path-agent-for-students"
       }
@@ -4144,7 +4216,7 @@
       {
         "kind": "api",
         "sourceProject": "AIMultiAgentClassroom",
-        "path": "backend/src/routes/ai.js:585",
+        "path": "backend/src/routes/ai.js:566",
         "route": "/grade-summary",
         "originApp": "education-training/career-path-agent-for-students"
       }
@@ -4174,6 +4246,7 @@
       "AILabSimulationPlatform",
       "AILearningDevelopmentPath",
       "AIMultiAgentClassroom",
+      "AISalesTrainingSimulator",
       "AIVRTrainingScenarioGenerator",
       "AiPersonalizedTutor"
     ],
@@ -4291,7 +4364,7 @@
       {
         "kind": "api",
         "sourceProject": "AICareerPathAgentForStudents",
-        "path": "backend/server.js:56",
+        "path": "backend/server.js:58",
         "route": "/api/health",
         "originApp": "education-training/career-path-agent-for-students"
       },
@@ -4396,37 +4469,23 @@
       {
         "kind": "api",
         "sourceProject": "AICodingInterviewAgent",
-        "path": "backend/server.js:74",
+        "path": "backend/server.js:76",
         "route": "/api/health",
         "originApp": "education-training/career-path-agent-for-students"
       },
       {
         "kind": "api",
         "sourceProject": "AILearningDevelopmentPath",
-        "path": "backend/src/server.js:73",
+        "path": "backend/src/server.js:86",
         "route": "/api/health",
         "originApp": "education-training/career-path-agent-for-students"
       },
       {
         "kind": "api",
         "sourceProject": "AIMultiAgentClassroom",
-        "path": "backend/src/server.js:88",
+        "path": "backend/src/server.js:95",
         "route": "/health",
         "originApp": "education-training/career-path-agent-for-students"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIVRTrainingScenarioGenerator",
-        "path": "backend/server.js:32",
-        "route": "/api/health",
-        "originApp": "education-training/sales-training-simulator"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AiPersonalizedTutor",
-        "path": "backend/src/index.js:4052",
-        "route": "/api/health",
-        "originApp": "education-training/sales-training-simulator"
       },
       {
         "kind": "api",
@@ -4515,23 +4574,44 @@
       {
         "kind": "api",
         "sourceProject": "AIDataLabelingPlatform",
-        "path": "backend/server.js:1575",
+        "path": "backend/server.js:1604",
         "route": "/api/health",
         "originApp": "education-training/data-labeling-platform"
       },
       {
         "kind": "api",
         "sourceProject": "AIExamProctoringSystem",
-        "path": "backend/src/server.js:20",
+        "path": "backend/src/server.js:13",
         "route": "/api/health",
         "originApp": "education-training/data-labeling-platform"
       },
       {
         "kind": "api",
         "sourceProject": "AILabSimulationPlatform",
-        "path": "server/index.js:67",
+        "path": "server/index.js:68",
         "route": "/api/health",
         "originApp": "education-training/data-labeling-platform"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AISalesTrainingSimulator",
+        "path": "server/index.js:23",
+        "route": "/api/health",
+        "originApp": "education-training/sales-training-simulator"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIVRTrainingScenarioGenerator",
+        "path": "backend/server.js:20",
+        "route": "/api/health",
+        "originApp": "education-training/sales-training-simulator"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AiPersonalizedTutor",
+        "path": "backend/src/index.js:20",
+        "route": "/api/health",
+        "originApp": "education-training/sales-training-simulator"
       }
     ]
   },
@@ -4543,14 +4623,7 @@
       "api"
     ],
     "routes": [
-      "/api/concept-explainer/history",
-      "/api/flashcard-generator/history",
-      "/api/history-explorer/history",
-      "/api/learning-style/history",
-      "/api/math-problems/solve/history",
-      "/api/progress-predictor/history",
-      "/api/quiz-generator/history",
-      "/api/writing-assistant/history",
+      "/cases/:id/history",
       "/history"
     ],
     "sourceProjects": [
@@ -4936,286 +5009,6 @@
       },
       {
         "kind": "api",
-        "sourceProject": "AISalesTrainingSimulator",
-        "path": "server/routes/ai-deal-scorer.js:73",
-        "route": "/history",
-        "originApp": "education-training/sales-training-simulator"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIVRTrainingScenarioGenerator",
-        "path": "backend/routes/adaptiveLearningPaths.js:79",
-        "route": "/history",
-        "originApp": "education-training/sales-training-simulator"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIVRTrainingScenarioGenerator",
-        "path": "backend/routes/gapNoAdaptiveDifficultyPersonalizedLearningPaths.js:71",
-        "route": "/history",
-        "originApp": "education-training/sales-training-simulator"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIVRTrainingScenarioGenerator",
-        "path": "backend/routes/gapNoCompletionCertificatePdfGeneration.js:71",
-        "route": "/history",
-        "originApp": "education-training/sales-training-simulator"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIVRTrainingScenarioGenerator",
-        "path": "backend/routes/gapNoInstructorDashboardWithStudentProgressViews.js:71",
-        "route": "/history",
-        "originApp": "education-training/sales-training-simulator"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIVRTrainingScenarioGenerator",
-        "path": "backend/routes/gapNoMultiLanguageSupport.js:71",
-        "route": "/history",
-        "originApp": "education-training/sales-training-simulator"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIVRTrainingScenarioGenerator",
-        "path": "backend/routes/gapNoNativeVrPlatformIntegrationUnityUnrealWebxr.js:71",
-        "route": "/history",
-        "originApp": "education-training/sales-training-simulator"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIVRTrainingScenarioGenerator",
-        "path": "backend/routes/gapNoPaymentSubscriptionIntegrationForB2bSales.js:71",
-        "route": "/history",
-        "originApp": "education-training/sales-training-simulator"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIVRTrainingScenarioGenerator",
-        "path": "backend/routes/gapNoPerformancePrediction.js:71",
-        "route": "/history",
-        "originApp": "education-training/sales-training-simulator"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIVRTrainingScenarioGenerator",
-        "path": "backend/routes/gapNoScenarioAutoGenerationFromIncidentData.js:71",
-        "route": "/history",
-        "originApp": "education-training/sales-training-simulator"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIVRTrainingScenarioGenerator",
-        "path": "backend/routes/gapNoScormXapiLmsExport.js:71",
-        "route": "/history",
-        "originApp": "education-training/sales-training-simulator"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIVRTrainingScenarioGenerator",
-        "path": "backend/routes/gapNoWebhooks.js:71",
-        "route": "/history",
-        "originApp": "education-training/sales-training-simulator"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIVRTrainingScenarioGenerator",
-        "path": "backend/routes/incidentSimulation.js:79",
-        "route": "/history",
-        "originApp": "education-training/sales-training-simulator"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIVRTrainingScenarioGenerator",
-        "path": "backend/routes/performancePrediction.js:79",
-        "route": "/history",
-        "originApp": "education-training/sales-training-simulator"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIVRTrainingScenarioGenerator",
-        "path": "backend/routes/scenarioRandomization.js:79",
-        "route": "/history",
-        "originApp": "education-training/sales-training-simulator"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIVRTrainingScenarioGenerator",
-        "path": "backend/routes/scormXapiExport.js:79",
-        "route": "/history",
-        "originApp": "education-training/sales-training-simulator"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIVRTrainingScenarioGenerator",
-        "path": "backend/routes/skillGapIdentification.js:79",
-        "route": "/history",
-        "originApp": "education-training/sales-training-simulator"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AiPersonalizedTutor",
-        "path": "backend/src/index.js:1276",
-        "route": "/api/math-problems/solve/history",
-        "originApp": "education-training/sales-training-simulator"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AiPersonalizedTutor",
-        "path": "backend/src/index.js:1530",
-        "route": "/api/writing-assistant/history",
-        "originApp": "education-training/sales-training-simulator"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AiPersonalizedTutor",
-        "path": "backend/src/index.js:1960",
-        "route": "/api/learning-style/history",
-        "originApp": "education-training/sales-training-simulator"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AiPersonalizedTutor",
-        "path": "backend/src/index.js:2102",
-        "route": "/api/progress-predictor/history",
-        "originApp": "education-training/sales-training-simulator"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AiPersonalizedTutor",
-        "path": "backend/src/index.js:2171",
-        "route": "/api/concept-explainer/history",
-        "originApp": "education-training/sales-training-simulator"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AiPersonalizedTutor",
-        "path": "backend/src/index.js:2677",
-        "route": "/api/history-explorer/history",
-        "originApp": "education-training/sales-training-simulator"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AiPersonalizedTutor",
-        "path": "backend/src/index.js:2792",
-        "route": "/api/quiz-generator/history",
-        "originApp": "education-training/sales-training-simulator"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AiPersonalizedTutor",
-        "path": "backend/src/index.js:2812",
-        "route": "/api/flashcard-generator/history",
-        "originApp": "education-training/sales-training-simulator"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AiPersonalizedTutor",
-        "path": "backend/src/routes/customFeat01_AdaptiveQuizEngine.js:120",
-        "route": "/history",
-        "originApp": "education-training/sales-training-simulator"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AiPersonalizedTutor",
-        "path": "backend/src/routes/customFeat02_ParentInsights.js:120",
-        "route": "/history",
-        "originApp": "education-training/sales-training-simulator"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AiPersonalizedTutor",
-        "path": "backend/src/routes/customFeat03_ContentRecommendation.js:120",
-        "route": "/history",
-        "originApp": "education-training/sales-training-simulator"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AiPersonalizedTutor",
-        "path": "backend/src/routes/customFeat04_AutomatedTutoring.js:120",
-        "route": "/history",
-        "originApp": "education-training/sales-training-simulator"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AiPersonalizedTutor",
-        "path": "backend/src/routes/customFeat05_ProgressPrediction.js:120",
-        "route": "/history",
-        "originApp": "education-training/sales-training-simulator"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AiPersonalizedTutor",
-        "path": "backend/src/routes/gapFeat_limited_frontend_only_3_pages_despite_rich_backend.js:99",
-        "route": "/history",
-        "originApp": "education-training/sales-training-simulator"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AiPersonalizedTutor",
-        "path": "backend/src/routes/gapFeat_limited_rbac_student_parent_teacher_separation_unc.js:99",
-        "route": "/history",
-        "originApp": "education-training/sales-training-simulator"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AiPersonalizedTutor",
-        "path": "backend/src/routes/gapFeat_no_audit_logging_visible.js:99",
-        "route": "/history",
-        "originApp": "education-training/sales-training-simulator"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AiPersonalizedTutor",
-        "path": "backend/src/routes/gapFeat_no_curriculum.js:99",
-        "route": "/history",
-        "originApp": "education-training/sales-training-simulator"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AiPersonalizedTutor",
-        "path": "backend/src/routes/gapFeat_no_dedicated_routes_directory_all_routes_inline.js:99",
-        "route": "/history",
-        "originApp": "education-training/sales-training-simulator"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AiPersonalizedTutor",
-        "path": "backend/src/routes/gapFeat_no_payment_billing_for_parent_subscriptions.js:99",
-        "route": "/history",
-        "originApp": "education-training/sales-training-simulator"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AiPersonalizedTutor",
-        "path": "backend/src/routes/gapFeat_no_peer.js:99",
-        "route": "/history",
-        "originApp": "education-training/sales-training-simulator"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AiPersonalizedTutor",
-        "path": "backend/src/routes/gapFeat_no_real_lms_integration_canvas_blackboard_adapter.js:99",
-        "route": "/history",
-        "originApp": "education-training/sales-training-simulator"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AiPersonalizedTutor",
-        "path": "backend/src/routes/gapFeat_no_teacher.js:99",
-        "route": "/history",
-        "originApp": "education-training/sales-training-simulator"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AiPersonalizedTutor",
-        "path": "backend/src/routes/gapFeat_no_webhooks.js:99",
-        "route": "/history",
-        "originApp": "education-training/sales-training-simulator"
-      },
-      {
-        "kind": "api",
         "sourceProject": "AILabSimulationPlatform",
         "path": "server/routes/gap-limited.js:94",
         "route": "/history",
@@ -5430,6 +5223,258 @@
         "path": "server/routes/voice-tutor.js:94",
         "route": "/history",
         "originApp": "education-training/data-labeling-platform"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AISalesTrainingSimulator",
+        "path": "server/governance/routerFactory.js:136",
+        "route": "/cases/:id/history",
+        "originApp": "education-training/sales-training-simulator"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AISalesTrainingSimulator",
+        "path": "server/routes/ai-deal-scorer.js:73",
+        "route": "/history",
+        "originApp": "education-training/sales-training-simulator"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIVRTrainingScenarioGenerator",
+        "path": "backend/routes/adaptiveLearningPaths.js:79",
+        "route": "/history",
+        "originApp": "education-training/sales-training-simulator"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIVRTrainingScenarioGenerator",
+        "path": "backend/routes/aiFeatures.js:15",
+        "route": "/history",
+        "originApp": "education-training/sales-training-simulator"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIVRTrainingScenarioGenerator",
+        "path": "backend/routes/gapNoAdaptiveDifficultyPersonalizedLearningPaths.js:71",
+        "route": "/history",
+        "originApp": "education-training/sales-training-simulator"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIVRTrainingScenarioGenerator",
+        "path": "backend/routes/gapNoCompletionCertificatePdfGeneration.js:71",
+        "route": "/history",
+        "originApp": "education-training/sales-training-simulator"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIVRTrainingScenarioGenerator",
+        "path": "backend/routes/gapNoInstructorDashboardWithStudentProgressViews.js:71",
+        "route": "/history",
+        "originApp": "education-training/sales-training-simulator"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIVRTrainingScenarioGenerator",
+        "path": "backend/routes/gapNoMultiLanguageSupport.js:71",
+        "route": "/history",
+        "originApp": "education-training/sales-training-simulator"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIVRTrainingScenarioGenerator",
+        "path": "backend/routes/gapNoNativeVrPlatformIntegrationUnityUnrealWebxr.js:71",
+        "route": "/history",
+        "originApp": "education-training/sales-training-simulator"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIVRTrainingScenarioGenerator",
+        "path": "backend/routes/gapNoPaymentSubscriptionIntegrationForB2bSales.js:71",
+        "route": "/history",
+        "originApp": "education-training/sales-training-simulator"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIVRTrainingScenarioGenerator",
+        "path": "backend/routes/gapNoPerformancePrediction.js:71",
+        "route": "/history",
+        "originApp": "education-training/sales-training-simulator"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIVRTrainingScenarioGenerator",
+        "path": "backend/routes/gapNoScenarioAutoGenerationFromIncidentData.js:71",
+        "route": "/history",
+        "originApp": "education-training/sales-training-simulator"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIVRTrainingScenarioGenerator",
+        "path": "backend/routes/gapNoScormXapiLmsExport.js:71",
+        "route": "/history",
+        "originApp": "education-training/sales-training-simulator"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIVRTrainingScenarioGenerator",
+        "path": "backend/routes/gapNoWebhooks.js:71",
+        "route": "/history",
+        "originApp": "education-training/sales-training-simulator"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIVRTrainingScenarioGenerator",
+        "path": "backend/routes/incidentSimulation.js:79",
+        "route": "/history",
+        "originApp": "education-training/sales-training-simulator"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIVRTrainingScenarioGenerator",
+        "path": "backend/routes/performancePrediction.js:79",
+        "route": "/history",
+        "originApp": "education-training/sales-training-simulator"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIVRTrainingScenarioGenerator",
+        "path": "backend/routes/scenarioRandomization.js:79",
+        "route": "/history",
+        "originApp": "education-training/sales-training-simulator"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIVRTrainingScenarioGenerator",
+        "path": "backend/routes/scormXapiExport.js:79",
+        "route": "/history",
+        "originApp": "education-training/sales-training-simulator"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIVRTrainingScenarioGenerator",
+        "path": "backend/routes/skillGapIdentification.js:79",
+        "route": "/history",
+        "originApp": "education-training/sales-training-simulator"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AiPersonalizedTutor",
+        "path": "backend/governance/routerFactory.js:154",
+        "route": "/cases/:id/history",
+        "originApp": "education-training/sales-training-simulator"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AiPersonalizedTutor",
+        "path": "backend/src/routes/customFeat01_AdaptiveQuizEngine.js:120",
+        "route": "/history",
+        "originApp": "education-training/sales-training-simulator"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AiPersonalizedTutor",
+        "path": "backend/src/routes/customFeat02_ParentInsights.js:120",
+        "route": "/history",
+        "originApp": "education-training/sales-training-simulator"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AiPersonalizedTutor",
+        "path": "backend/src/routes/customFeat03_ContentRecommendation.js:120",
+        "route": "/history",
+        "originApp": "education-training/sales-training-simulator"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AiPersonalizedTutor",
+        "path": "backend/src/routes/customFeat04_AutomatedTutoring.js:120",
+        "route": "/history",
+        "originApp": "education-training/sales-training-simulator"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AiPersonalizedTutor",
+        "path": "backend/src/routes/customFeat05_ProgressPrediction.js:120",
+        "route": "/history",
+        "originApp": "education-training/sales-training-simulator"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AiPersonalizedTutor",
+        "path": "backend/src/routes/gapFeat_limited_frontend_only_3_pages_despite_rich_backend.js:99",
+        "route": "/history",
+        "originApp": "education-training/sales-training-simulator"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AiPersonalizedTutor",
+        "path": "backend/src/routes/gapFeat_limited_rbac_student_parent_teacher_separation_unc.js:99",
+        "route": "/history",
+        "originApp": "education-training/sales-training-simulator"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AiPersonalizedTutor",
+        "path": "backend/src/routes/gapFeat_no_audit_logging_visible.js:99",
+        "route": "/history",
+        "originApp": "education-training/sales-training-simulator"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AiPersonalizedTutor",
+        "path": "backend/src/routes/gapFeat_no_curriculum.js:99",
+        "route": "/history",
+        "originApp": "education-training/sales-training-simulator"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AiPersonalizedTutor",
+        "path": "backend/src/routes/gapFeat_no_dedicated_routes_directory_all_routes_inline.js:99",
+        "route": "/history",
+        "originApp": "education-training/sales-training-simulator"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AiPersonalizedTutor",
+        "path": "backend/src/routes/gapFeat_no_payment_billing_for_parent_subscriptions.js:99",
+        "route": "/history",
+        "originApp": "education-training/sales-training-simulator"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AiPersonalizedTutor",
+        "path": "backend/src/routes/gapFeat_no_peer.js:99",
+        "route": "/history",
+        "originApp": "education-training/sales-training-simulator"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AiPersonalizedTutor",
+        "path": "backend/src/routes/gapFeat_no_real_lms_integration_canvas_blackboard_adapter.js:99",
+        "route": "/history",
+        "originApp": "education-training/sales-training-simulator"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AiPersonalizedTutor",
+        "path": "backend/src/routes/gapFeat_no_teacher.js:99",
+        "route": "/history",
+        "originApp": "education-training/sales-training-simulator"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AiPersonalizedTutor",
+        "path": "backend/src/routes/gapFeat_no_webhooks.js:99",
+        "route": "/history",
+        "originApp": "education-training/sales-training-simulator"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AiPersonalizedTutor",
+        "path": "backend/src/routes/runtimeAi.js:5",
+        "route": "/history",
+        "originApp": "education-training/sales-training-simulator"
       }
     ]
   },
@@ -5685,12 +5730,16 @@
     "name": "Interview Views",
     "canonicalKey": "interview",
     "aliases": [
-      "Interviews"
+      "Interviews",
+      "Interviews Page"
     ],
     "kinds": [
-      "navigation"
+      "navigation",
+      "page"
     ],
-    "routes": [],
+    "routes": [
+      "/InterviewsPage"
+    ],
     "sourceProjects": [
       "AICodingInterviewAgent"
     ],
@@ -5711,12 +5760,19 @@
         "path": "frontend/src/components/Sidebar.js:7",
         "route": "",
         "originApp": "education-training/career-path-agent-for-students"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AICodingInterviewAgent",
+        "path": "frontend/src/pages/InterviewsPage.js",
+        "route": "/InterviewsPage",
+        "originApp": "education-training/career-path-agent-for-students"
       }
     ]
   },
   {
     "name": "Interviews Csv",
-    "canonicalKey": "csv interviews",
+    "canonicalKey": "csv interview",
     "aliases": [],
     "kinds": [
       "api"
@@ -5736,32 +5792,6 @@
         "sourceProject": "AICodingInterviewAgent",
         "path": "backend/routes/reports.js:54",
         "route": "/interviews.csv",
-        "originApp": "education-training/career-path-agent-for-students"
-      }
-    ]
-  },
-  {
-    "name": "Interviews Page",
-    "canonicalKey": "interviews",
-    "aliases": [],
-    "kinds": [
-      "page"
-    ],
-    "routes": [
-      "/InterviewsPage"
-    ],
-    "sourceProjects": [
-      "AICodingInterviewAgent"
-    ],
-    "consolidatedFromApps": [
-      "education-training/career-path-agent-for-students"
-    ],
-    "evidence": [
-      {
-        "kind": "page",
-        "sourceProject": "AICodingInterviewAgent",
-        "path": "frontend/src/pages/InterviewsPage.js",
-        "route": "/InterviewsPage",
         "originApp": "education-training/career-path-agent-for-students"
       }
     ]
@@ -6324,6 +6354,122 @@
     ]
   },
   {
+    "name": "Me",
+    "canonicalKey": "me",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/api/auth/me",
+      "/me"
+    ],
+    "sourceProjects": [
+      "AICareerPathAgentForStudents",
+      "AICodingInterviewAgent",
+      "AIDataLabelingPlatform",
+      "AIExamProctoringSystem",
+      "AILabSimulationPlatform",
+      "AILanguageLearningCompanion",
+      "AILearningDevelopmentPath",
+      "AIMultiAgentClassroom",
+      "AISalesTrainingSimulator",
+      "AIVRTrainingScenarioGenerator",
+      "AiPersonalizedTutor"
+    ],
+    "consolidatedFromApps": [
+      "education-training/career-path-agent-for-students",
+      "education-training/data-labeling-platform",
+      "education-training/sales-training-simulator"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AICareerPathAgentForStudents",
+        "path": "backend/routes/auth.js:48",
+        "route": "/me",
+        "originApp": "education-training/career-path-agent-for-students"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AICareerPathAgentForStudents",
+        "path": "backend/routes/exportData.js:25",
+        "route": "/me",
+        "originApp": "education-training/career-path-agent-for-students"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AICodingInterviewAgent",
+        "path": "backend/routes/auth.js:16",
+        "route": "/me",
+        "originApp": "education-training/career-path-agent-for-students"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AILearningDevelopmentPath",
+        "path": "backend/src/routes/auth.js:42",
+        "route": "/me",
+        "originApp": "education-training/career-path-agent-for-students"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIMultiAgentClassroom",
+        "path": "backend/src/routes/auth.js:73",
+        "route": "/me",
+        "originApp": "education-training/career-path-agent-for-students"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIDataLabelingPlatform",
+        "path": "backend/server.js:530",
+        "route": "/api/auth/me",
+        "originApp": "education-training/data-labeling-platform"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIExamProctoringSystem",
+        "path": "backend/src/routes/auth.js:72",
+        "route": "/me",
+        "originApp": "education-training/data-labeling-platform"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AILabSimulationPlatform",
+        "path": "server/routes/auth.js:35",
+        "route": "/me",
+        "originApp": "education-training/data-labeling-platform"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AILanguageLearningCompanion",
+        "path": "server/routes/auth.js:43",
+        "route": "/me",
+        "originApp": "education-training/data-labeling-platform"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AISalesTrainingSimulator",
+        "path": "server/routes/auth.js:37",
+        "route": "/me",
+        "originApp": "education-training/sales-training-simulator"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIVRTrainingScenarioGenerator",
+        "path": "backend/routes/auth.js:88",
+        "route": "/me",
+        "originApp": "education-training/sales-training-simulator"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AiPersonalizedTutor",
+        "path": "backend/src/routes/auth.js:24",
+        "route": "/me",
+        "originApp": "education-training/sales-training-simulator"
+      }
+    ]
+  },
+  {
     "name": "Me Csv",
     "canonicalKey": "csv me",
     "aliases": [],
@@ -6478,17 +6624,14 @@
     ],
     "routes": [
       "/:id/messages",
-      "/api/chat/sessions/:id/messages",
       "/sessions/:id/messages"
     ],
     "sourceProjects": [
       "AICareerPathAgentForStudents",
-      "AIMultiAgentClassroom",
-      "AiPersonalizedTutor"
+      "AIMultiAgentClassroom"
     ],
     "consolidatedFromApps": [
-      "education-training/career-path-agent-for-students",
-      "education-training/sales-training-simulator"
+      "education-training/career-path-agent-for-students"
     ],
     "evidence": [
       {
@@ -6511,20 +6654,6 @@
         "path": "backend/src/routes/classroom.js:81",
         "route": "/sessions/:id/messages",
         "originApp": "education-training/career-path-agent-for-students"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AiPersonalizedTutor",
-        "path": "backend/src/index.js:875",
-        "route": "/api/chat/sessions/:id/messages",
-        "originApp": "education-training/sales-training-simulator"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AiPersonalizedTutor",
-        "path": "backend/src/index.js:888",
-        "route": "/api/chat/sessions/:id/messages",
-        "originApp": "education-training/sales-training-simulator"
       }
     ]
   },
@@ -6548,7 +6677,7 @@
       {
         "kind": "api",
         "sourceProject": "AIMultiAgentClassroom",
-        "path": "backend/src/routes/ai.js:429",
+        "path": "backend/src/routes/ai.js:410",
         "route": "/misconception-detection",
         "originApp": "education-training/career-path-agent-for-students"
       }
@@ -6630,7 +6759,7 @@
   },
   {
     "name": "No AI Behavioral Signal Analyzer From Transcripts Page",
-    "canonicalKey": "ai analyzer behavioral from no signal transcripts",
+    "canonicalKey": "ai analyzer behavioral from no signal transcript",
     "aliases": [],
     "kinds": [
       "page"
@@ -6656,7 +6785,7 @@
   },
   {
     "name": "No AI Bias Audit On Rankings Page",
-    "canonicalKey": "ai audit bias no on rankings",
+    "canonicalKey": "ai audit bias no on ranking",
     "aliases": [],
     "kinds": [
       "page"
@@ -6760,7 +6889,7 @@
   },
   {
     "name": "No AI Resume Cover Letter Generator Pages Exist Bu Page",
-    "canonicalKey": "ai bu cover exist generator letter no pages resume",
+    "canonicalKey": "ai bu cover exist generator letter no page resume",
     "aliases": [],
     "kinds": [
       "page"
@@ -6942,7 +7071,7 @@
   },
   {
     "name": "No Live Code Editor Sandbox For Candidates Page",
-    "canonicalKey": "candidates code editor for live no sandbox",
+    "canonicalKey": "candidate code editor for live no sandbox",
     "aliases": [],
     "kinds": [
       "page"
@@ -6968,7 +7097,7 @@
   },
   {
     "name": "No Notification System Delivery Channel For Nudges Page",
-    "canonicalKey": "channel delivery for no notification nudges",
+    "canonicalKey": "channel delivery for no notification nudge",
     "aliases": [],
     "kinds": [
       "page"
@@ -7072,7 +7201,7 @@
   },
   {
     "name": "Notification Routes Exist But No Email Calendar In Page",
-    "canonicalKey": "but calendar email exist in no notification routes",
+    "canonicalKey": "but calendar email exist in no notification route",
     "aliases": [],
     "kinds": [
       "page"
@@ -7092,32 +7221,6 @@
         "sourceProject": "AICodingInterviewAgent",
         "path": "frontend/src/pages/NotificationRoutesExistButNoEmailCalendarInPage.js",
         "route": "/NotificationRoutesExistButNoEmailCalendarInPage",
-        "originApp": "education-training/career-path-agent-for-students"
-      }
-    ]
-  },
-  {
-    "name": "Notifications Page",
-    "canonicalKey": "notifications",
-    "aliases": [],
-    "kinds": [
-      "page"
-    ],
-    "routes": [
-      "/NotificationsPage"
-    ],
-    "sourceProjects": [
-      "AICodingInterviewAgent"
-    ],
-    "consolidatedFromApps": [
-      "education-training/career-path-agent-for-students"
-    ],
-    "evidence": [
-      {
-        "kind": "page",
-        "sourceProject": "AICodingInterviewAgent",
-        "path": "frontend/src/pages/NotificationsPage.js",
-        "route": "/NotificationsPage",
         "originApp": "education-training/career-path-agent-for-students"
       }
     ]
@@ -7242,7 +7345,7 @@
       {
         "kind": "api",
         "sourceProject": "AIMultiAgentClassroom",
-        "path": "backend/src/routes/ai.js:544",
+        "path": "backend/src/routes/ai.js:525",
         "route": "/parent-communication",
         "originApp": "education-training/career-path-agent-for-students"
       }
@@ -7390,6 +7493,32 @@
     ]
   },
   {
+    "name": "Peer Suggestion",
+    "canonicalKey": "peer suggestion",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/:workflowRef/peer-suggestion"
+    ],
+    "sourceProjects": [
+      "AIMultiAgentClassroom"
+    ],
+    "consolidatedFromApps": [
+      "education-training/career-path-agent-for-students"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIMultiAgentClassroom",
+        "path": "backend/src/routes/classroomWorkflow.js:4",
+        "route": "/:workflowRef/peer-suggestion",
+        "originApp": "education-training/career-path-agent-for-students"
+      }
+    ]
+  },
+  {
     "name": "Performance Reviews",
     "canonicalKey": "performance review",
     "aliases": [],
@@ -7480,7 +7609,7 @@
   },
   {
     "name": "Persona Rules Editor",
-    "canonicalKey": "editor persona rules",
+    "canonicalKey": "editor persona rule",
     "aliases": [],
     "kinds": [
       "page"
@@ -7630,7 +7759,7 @@
       {
         "kind": "api",
         "sourceProject": "AIMultiAgentClassroom",
-        "path": "backend/src/routes/ai.js:397",
+        "path": "backend/src/routes/ai.js:378",
         "route": "/progress",
         "originApp": "education-training/career-path-agent-for-students"
       },
@@ -7740,21 +7869,17 @@
       "Questions Page"
     ],
     "kinds": [
-      "api",
       "navigation",
       "page"
     ],
     "routes": [
-      "/QuestionsPage",
-      "/api/learning-style/questions"
+      "/QuestionsPage"
     ],
     "sourceProjects": [
-      "AICodingInterviewAgent",
-      "AiPersonalizedTutor"
+      "AICodingInterviewAgent"
     ],
     "consolidatedFromApps": [
-      "education-training/career-path-agent-for-students",
-      "education-training/sales-training-simulator"
+      "education-training/career-path-agent-for-students"
     ],
     "evidence": [
       {
@@ -7763,13 +7888,6 @@
         "path": "frontend/src/components/Sidebar.js:6",
         "route": "",
         "originApp": "education-training/career-path-agent-for-students"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AiPersonalizedTutor",
-        "path": "backend/src/index.js:1793",
-        "route": "/api/learning-style/questions",
-        "originApp": "education-training/sales-training-simulator"
       },
       {
         "kind": "page",
@@ -7782,7 +7900,7 @@
   },
   {
     "name": "Questions Csv",
-    "canonicalKey": "csv questions",
+    "canonicalKey": "csv question",
     "aliases": [],
     "kinds": [
       "api"
@@ -7826,7 +7944,7 @@
       {
         "kind": "api",
         "sourceProject": "AIMultiAgentClassroom",
-        "path": "backend/src/routes/ai.js:155",
+        "path": "backend/src/routes/ai.js:136",
         "route": "/quiz-master",
         "originApp": "education-training/career-path-agent-for-students"
       }
@@ -7834,7 +7952,7 @@
   },
   {
     "name": "Rag Over A Question Bank That Adapts Difficulty By Page",
-    "canonicalKey": "a adapts bank by difficulty over question rag that",
+    "canonicalKey": "a adapt bank by difficulty over question rag that",
     "aliases": [],
     "kinds": [
       "page"
@@ -7860,7 +7978,7 @@
   },
   {
     "name": "Rag Over Bls Data And Local Employer Postings For Page",
-    "canonicalKey": "and bls data employer for local over postings rag",
+    "canonicalKey": "and bls data employer for local over posting rag",
     "aliases": [],
     "kinds": [
       "page"
@@ -7974,7 +8092,7 @@
   },
   {
     "name": "Real Time Labor Market Trend Alerts Triggering New Page",
-    "canonicalKey": "alerts labor market real time trend triggering",
+    "canonicalKey": "alert labor market real time trend triggering",
     "aliases": [],
     "kinds": [
       "page"
@@ -7994,32 +8112,6 @@
         "sourceProject": "AICareerPathAgentForStudents",
         "path": "frontend/src/pages/RealTimeLaborMarketTrendAlertsTriggeringNewPage.jsx",
         "route": "/RealTimeLaborMarketTrendAlertsTriggeringNewPage",
-        "originApp": "education-training/career-path-agent-for-students"
-      }
-    ]
-  },
-  {
-    "name": "Reports Page",
-    "canonicalKey": "reports",
-    "aliases": [],
-    "kinds": [
-      "page"
-    ],
-    "routes": [
-      "/ReportsPage"
-    ],
-    "sourceProjects": [
-      "AICodingInterviewAgent"
-    ],
-    "consolidatedFromApps": [
-      "education-training/career-path-agent-for-students"
-    ],
-    "evidence": [
-      {
-        "kind": "page",
-        "sourceProject": "AICodingInterviewAgent",
-        "path": "frontend/src/pages/ReportsPage.js",
-        "route": "/ReportsPage",
         "originApp": "education-training/career-path-agent-for-students"
       }
     ]
@@ -8559,6 +8651,83 @@
       },
       {
         "kind": "api",
+        "sourceProject": "AIDataLabelingPlatform",
+        "path": "backend/routes/autoLabeling.js:78",
+        "route": "/run",
+        "originApp": "education-training/data-labeling-platform"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AILabSimulationPlatform",
+        "path": "server/routes/lab-assistant-agent.js:63",
+        "route": "/run",
+        "originApp": "education-training/data-labeling-platform"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AILabSimulationPlatform",
+        "path": "server/routes/peer-feedback-synthesis.js:63",
+        "route": "/run",
+        "originApp": "education-training/data-labeling-platform"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AILabSimulationPlatform",
+        "path": "server/routes/safety-anomaly-stream.js:63",
+        "route": "/run",
+        "originApp": "education-training/data-labeling-platform"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AILabSimulationPlatform",
+        "path": "server/routes/vision-procedure-verify.js:63",
+        "route": "/run",
+        "originApp": "education-training/data-labeling-platform"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AILabSimulationPlatform",
+        "path": "server/routes/vr-lab-integration.js:63",
+        "route": "/run",
+        "originApp": "education-training/data-labeling-platform"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AILanguageLearningCompanion",
+        "path": "server/routes/conversation-partner.js:63",
+        "route": "/run",
+        "originApp": "education-training/data-labeling-platform"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AILanguageLearningCompanion",
+        "path": "server/routes/cultural-storytelling.js:63",
+        "route": "/run",
+        "originApp": "education-training/data-labeling-platform"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AILanguageLearningCompanion",
+        "path": "server/routes/peer-matchmaker.js:63",
+        "route": "/run",
+        "originApp": "education-training/data-labeling-platform"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AILanguageLearningCompanion",
+        "path": "server/routes/vertical-vocab-pack.js:63",
+        "route": "/run",
+        "originApp": "education-training/data-labeling-platform"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AILanguageLearningCompanion",
+        "path": "server/routes/voice-tutor.js:63",
+        "route": "/run",
+        "originApp": "education-training/data-labeling-platform"
+      },
+      {
+        "kind": "api",
         "sourceProject": "AIVRTrainingScenarioGenerator",
         "path": "backend/routes/gapNoAdaptiveDifficultyPersonalizedLearningPaths.js:55",
         "route": "/run",
@@ -8731,83 +8900,32 @@
         "path": "backend/src/routes/gapFeat_no_webhooks.js:72",
         "route": "/run",
         "originApp": "education-training/sales-training-simulator"
-      },
+      }
+    ]
+  },
+  {
+    "name": "Runner Results",
+    "canonicalKey": "result runner",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/runner-results"
+    ],
+    "sourceProjects": [
+      "AICodingInterviewAgent"
+    ],
+    "consolidatedFromApps": [
+      "education-training/career-path-agent-for-students"
+    ],
+    "evidence": [
       {
         "kind": "api",
-        "sourceProject": "AIDataLabelingPlatform",
-        "path": "backend/routes/autoLabeling.js:81",
-        "route": "/run",
-        "originApp": "education-training/data-labeling-platform"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AILabSimulationPlatform",
-        "path": "server/routes/lab-assistant-agent.js:63",
-        "route": "/run",
-        "originApp": "education-training/data-labeling-platform"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AILabSimulationPlatform",
-        "path": "server/routes/peer-feedback-synthesis.js:63",
-        "route": "/run",
-        "originApp": "education-training/data-labeling-platform"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AILabSimulationPlatform",
-        "path": "server/routes/safety-anomaly-stream.js:63",
-        "route": "/run",
-        "originApp": "education-training/data-labeling-platform"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AILabSimulationPlatform",
-        "path": "server/routes/vision-procedure-verify.js:63",
-        "route": "/run",
-        "originApp": "education-training/data-labeling-platform"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AILabSimulationPlatform",
-        "path": "server/routes/vr-lab-integration.js:63",
-        "route": "/run",
-        "originApp": "education-training/data-labeling-platform"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AILanguageLearningCompanion",
-        "path": "server/routes/conversation-partner.js:63",
-        "route": "/run",
-        "originApp": "education-training/data-labeling-platform"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AILanguageLearningCompanion",
-        "path": "server/routes/cultural-storytelling.js:63",
-        "route": "/run",
-        "originApp": "education-training/data-labeling-platform"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AILanguageLearningCompanion",
-        "path": "server/routes/peer-matchmaker.js:63",
-        "route": "/run",
-        "originApp": "education-training/data-labeling-platform"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AILanguageLearningCompanion",
-        "path": "server/routes/vertical-vocab-pack.js:63",
-        "route": "/run",
-        "originApp": "education-training/data-labeling-platform"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AILanguageLearningCompanion",
-        "path": "server/routes/voice-tutor.js:63",
-        "route": "/run",
-        "originApp": "education-training/data-labeling-platform"
+        "sourceProject": "AICodingInterviewAgent",
+        "path": "backend/routes/interviewWorkflow.js:47",
+        "route": "/runner-results",
+        "originApp": "education-training/career-path-agent-for-students"
       }
     ]
   },
@@ -9188,7 +9306,7 @@
       {
         "kind": "page",
         "sourceProject": "AIVRTrainingScenarioGenerator",
-        "path": "frontend/src/App.jsx:102",
+        "path": "frontend/src/App.jsx:99",
         "route": "/ai/skill-gap",
         "originApp": "education-training/sales-training-simulator"
       }
@@ -9416,7 +9534,7 @@
       {
         "kind": "api",
         "sourceProject": "AIMultiAgentClassroom",
-        "path": "backend/src/routes/ai.js:293",
+        "path": "backend/src/routes/ai.js:274",
         "route": "/socratic-debate",
         "originApp": "education-training/career-path-agent-for-students"
       },
@@ -9489,15 +9607,24 @@
       "api"
     ],
     "routes": [
-      "/assignments/:id/submissions"
+      "/assignments/:id/submissions",
+      "/sessions/:id/submissions"
     ],
     "sourceProjects": [
+      "AICodingInterviewAgent",
       "AIMultiAgentClassroom"
     ],
     "consolidatedFromApps": [
       "education-training/career-path-agent-for-students"
     ],
     "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AICodingInterviewAgent",
+        "path": "backend/routes/interviewWorkflow.js:31",
+        "route": "/sessions/:id/submissions",
+        "originApp": "education-training/career-path-agent-for-students"
+      },
       {
         "kind": "api",
         "sourceProject": "AIMultiAgentClassroom",
@@ -9516,25 +9643,31 @@
     ],
     "routes": [
       "/:id/submit",
-      "/api/quizzes/:id/submit",
       "/assignments/:id/submit"
     ],
     "sourceProjects": [
       "AICodingInterviewAgent",
       "AILabSimulationPlatform",
-      "AIMultiAgentClassroom",
-      "AiPersonalizedTutor"
+      "AILanguageLearningCompanion",
+      "AILearningDevelopmentPath",
+      "AIMultiAgentClassroom"
     ],
     "consolidatedFromApps": [
       "education-training/career-path-agent-for-students",
-      "education-training/data-labeling-platform",
-      "education-training/sales-training-simulator"
+      "education-training/data-labeling-platform"
     ],
     "evidence": [
       {
         "kind": "api",
         "sourceProject": "AICodingInterviewAgent",
         "path": "backend/routes/interviews.js:209",
+        "route": "/:id/submit",
+        "originApp": "education-training/career-path-agent-for-students"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AILearningDevelopmentPath",
+        "path": "backend/src/governance/router.js:93",
         "route": "/:id/submit",
         "originApp": "education-training/career-path-agent-for-students"
       },
@@ -9547,15 +9680,22 @@
       },
       {
         "kind": "api",
-        "sourceProject": "AiPersonalizedTutor",
-        "path": "backend/src/index.js:681",
-        "route": "/api/quizzes/:id/submit",
-        "originApp": "education-training/sales-training-simulator"
+        "sourceProject": "AILabSimulationPlatform",
+        "path": "server/governance/router.js:93",
+        "route": "/:id/submit",
+        "originApp": "education-training/data-labeling-platform"
       },
       {
         "kind": "api",
         "sourceProject": "AILabSimulationPlatform",
         "path": "server/routes/assessments.js:67",
+        "route": "/:id/submit",
+        "originApp": "education-training/data-labeling-platform"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AILanguageLearningCompanion",
+        "path": "server/governance/router.js:93",
         "route": "/:id/submit",
         "originApp": "education-training/data-labeling-platform"
       }
@@ -9652,7 +9792,6 @@
     ],
     "routes": [
       "/:id/summary",
-      "/api/parent-dashboard/student/:id/summary",
       "/interview/:interview_id/summary",
       "/stats/summary",
       "/submission/:submission_id/summary",
@@ -9660,13 +9799,11 @@
     ],
     "sourceProjects": [
       "AICodingInterviewAgent",
-      "AILanguageLearningCompanion",
-      "AiPersonalizedTutor"
+      "AILanguageLearningCompanion"
     ],
     "consolidatedFromApps": [
       "education-training/career-path-agent-for-students",
-      "education-training/data-labeling-platform",
-      "education-training/sales-training-simulator"
+      "education-training/data-labeling-platform"
     ],
     "evidence": [
       {
@@ -9699,17 +9836,36 @@
       },
       {
         "kind": "api",
-        "sourceProject": "AiPersonalizedTutor",
-        "path": "backend/src/index.js:3858",
-        "route": "/api/parent-dashboard/student/:id/summary",
-        "originApp": "education-training/sales-training-simulator"
-      },
-      {
-        "kind": "api",
         "sourceProject": "AILanguageLearningCompanion",
         "path": "server/routes/progress.js:17",
         "route": "/stats/summary",
         "originApp": "education-training/data-labeling-platform"
+      }
+    ]
+  },
+  {
+    "name": "Sync Requests",
+    "canonicalKey": "request sync",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/:id/sync-requests"
+    ],
+    "sourceProjects": [
+      "AICareerPathAgentForStudents"
+    ],
+    "consolidatedFromApps": [
+      "education-training/career-path-agent-for-students"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AICareerPathAgentForStudents",
+        "path": "backend/routes/governedPlans.js:37",
+        "route": "/:id/sync-requests",
+        "originApp": "education-training/career-path-agent-for-students"
       }
     ]
   },
@@ -10082,7 +10238,7 @@
       {
         "kind": "api",
         "sourceProject": "AIMultiAgentClassroom",
-        "path": "backend/src/routes/ai.js:66",
+        "path": "backend/src/routes/ai.js:47",
         "route": "/tutor-response",
         "originApp": "education-training/career-path-agent-for-students"
       }
@@ -10119,19 +10275,14 @@
     "canonicalKey": "user",
     "aliases": [],
     "kinds": [
-      "api",
       "model"
     ],
-    "routes": [
-      "/api/achievements/user"
-    ],
+    "routes": [],
     "sourceProjects": [
-      "AILearningDevelopmentPath",
-      "AiPersonalizedTutor"
+      "AILearningDevelopmentPath"
     ],
     "consolidatedFromApps": [
-      "education-training/career-path-agent-for-students",
-      "education-training/sales-training-simulator"
+      "education-training/career-path-agent-for-students"
     ],
     "evidence": [
       {
@@ -10140,13 +10291,32 @@
         "path": "backend/src/models/User.js",
         "route": "",
         "originApp": "education-training/career-path-agent-for-students"
-      },
+      }
+    ]
+  },
+  {
+    "name": "Version",
+    "canonicalKey": "version",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/question/:question_id/version/:version"
+    ],
+    "sourceProjects": [
+      "AICodingInterviewAgent"
+    ],
+    "consolidatedFromApps": [
+      "education-training/career-path-agent-for-students"
+    ],
+    "evidence": [
       {
         "kind": "api",
-        "sourceProject": "AiPersonalizedTutor",
-        "path": "backend/src/index.js:1444",
-        "route": "/api/achievements/user",
-        "originApp": "education-training/sales-training-simulator"
+        "sourceProject": "AICodingInterviewAgent",
+        "path": "backend/routes/questionVersions.js:22",
+        "route": "/question/:question_id/version/:version",
+        "originApp": "education-training/career-path-agent-for-students"
       }
     ]
   },
@@ -10205,6 +10375,13 @@
       },
       {
         "kind": "page",
+        "sourceProject": "AICodingInterviewAgent",
+        "path": "frontend/src/pages/WebhooksPage.js",
+        "route": "/WebhooksPage",
+        "originApp": "education-training/career-path-agent-for-students"
+      },
+      {
+        "kind": "page",
         "sourceProject": "AIDataLabelingPlatform",
         "path": "frontend/src/App.jsx:183",
         "route": "/webhooks",
@@ -10230,13 +10407,6 @@
         "path": "frontend/src/pages/Webhooks.jsx",
         "route": "/Webhooks",
         "originApp": "education-training/data-labeling-platform"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AICodingInterviewAgent",
-        "path": "frontend/src/pages/WebhooksPage.js",
-        "route": "/WebhooksPage",
-        "originApp": "education-training/career-path-agent-for-students"
       }
     ]
   },
@@ -10316,7 +10486,7 @@
   },
   {
     "name": "White Label Deployment For School Districts And Co Page",
-    "canonicalKey": "and co deployment districts for label school white",
+    "canonicalKey": "and co deployment district for label school white",
     "aliases": [],
     "kinds": [
       "page"
@@ -10342,7 +10512,7 @@
   },
   {
     "name": "White Label Deployment For Staffing Agencies And H Page",
-    "canonicalKey": "agencies and deployment for h label staffing white",
+    "canonicalKey": "agency and deployment for h label staffing white",
     "aliases": [],
     "kinds": [
       "page"
