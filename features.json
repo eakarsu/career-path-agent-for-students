@@ -858,9 +858,11 @@
     "canonicalKey": "budget optimizer",
     "aliases": [],
     "kinds": [
+      "ai-page",
       "api"
     ],
     "routes": [
+      "/ai-tools?tool=budget-optimizer",
       "/budget-optimizer"
     ],
     "sourceProjects": [
@@ -870,6 +872,13 @@
       "education-training/career-path-agent-for-students"
     ],
     "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AILearningDevelopmentPath",
+        "path": "frontend/src/pages/AIToolsPage.js:39",
+        "route": "/ai-tools?tool=budget-optimizer",
+        "originApp": "education-training/career-path-agent-for-students"
+      },
       {
         "kind": "api",
         "sourceProject": "AILearningDevelopmentPath",
@@ -2900,9 +2909,11 @@
     "canonicalKey": "adapt difficulty",
     "aliases": [],
     "kinds": [
+      "ai-page",
       "api"
     ],
     "routes": [
+      "/ai-tools?tool=difficulty-adapt",
       "/difficulty-adapt"
     ],
     "sourceProjects": [
@@ -2912,6 +2923,13 @@
       "education-training/career-path-agent-for-students"
     ],
     "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIMultiAgentClassroom",
+        "path": "frontend/src/pages/AITools.js:53",
+        "route": "/ai-tools?tool=difficulty-adapt",
+        "originApp": "education-training/career-path-agent-for-students"
+      },
       {
         "kind": "api",
         "sourceProject": "AIMultiAgentClassroom",
@@ -4201,10 +4219,12 @@
     "canonicalKey": "grade summary",
     "aliases": [],
     "kinds": [
+      "ai-page",
       "api"
     ],
     "routes": [
-      "/grade-summary"
+      "/grade-summary",
+      "/teacher?tool=grade-summary"
     ],
     "sourceProjects": [
       "AIMultiAgentClassroom"
@@ -4213,6 +4233,13 @@
       "education-training/career-path-agent-for-students"
     ],
     "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIMultiAgentClassroom",
+        "path": "frontend/src/pages/TeacherDashboard.js:1",
+        "route": "/teacher?tool=grade-summary",
+        "originApp": "education-training/career-path-agent-for-students"
+      },
       {
         "kind": "api",
         "sourceProject": "AIMultiAgentClassroom",
@@ -5985,6 +6012,65 @@
     ]
   },
   {
+    "name": "Learning Path",
+    "canonicalKey": "learning path",
+    "aliases": [],
+    "kinds": [
+      "ai-page",
+      "api",
+      "page"
+    ],
+    "routes": [
+      "/LearningPath",
+      "/learning-path",
+      "/learning-path?tool=learning-path"
+    ],
+    "sourceProjects": [
+      "AILearningDevelopmentPath",
+      "AIMultiAgentClassroom"
+    ],
+    "consolidatedFromApps": [
+      "education-training/career-path-agent-for-students"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AILearningDevelopmentPath",
+        "path": "backend/src/routes/ai.js:9",
+        "route": "/learning-path",
+        "originApp": "education-training/career-path-agent-for-students"
+      },
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIMultiAgentClassroom",
+        "path": "frontend/src/pages/LearningPath.js:79",
+        "route": "/learning-path?tool=learning-path",
+        "originApp": "education-training/career-path-agent-for-students"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIMultiAgentClassroom",
+        "path": "backend/src/routes/ai.js:327",
+        "route": "/learning-path",
+        "originApp": "education-training/career-path-agent-for-students"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIMultiAgentClassroom",
+        "path": "frontend/src/App.js:42",
+        "route": "/learning-path",
+        "originApp": "education-training/career-path-agent-for-students"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIMultiAgentClassroom",
+        "path": "frontend/src/pages/LearningPath.js",
+        "route": "/LearningPath",
+        "originApp": "education-training/career-path-agent-for-students"
+      }
+    ]
+  },
+  {
     "name": "Learning Path Rules",
     "canonicalKey": "learning path rule",
     "aliases": [],
@@ -6662,9 +6748,11 @@
     "canonicalKey": "detection misconception",
     "aliases": [],
     "kinds": [
+      "ai-page",
       "api"
     ],
     "routes": [
+      "/ai-tools?tool=misconception-detection",
       "/misconception-detection"
     ],
     "sourceProjects": [
@@ -6674,6 +6762,13 @@
       "education-training/career-path-agent-for-students"
     ],
     "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIMultiAgentClassroom",
+        "path": "frontend/src/pages/AITools.js:42",
+        "route": "/ai-tools?tool=misconception-detection",
+        "originApp": "education-training/career-path-agent-for-students"
+      },
       {
         "kind": "api",
         "sourceProject": "AIMultiAgentClassroom",
@@ -7330,10 +7425,12 @@
     "canonicalKey": "communication parent",
     "aliases": [],
     "kinds": [
+      "ai-page",
       "api"
     ],
     "routes": [
-      "/parent-communication"
+      "/parent-communication",
+      "/teacher?tool=parent-communication"
     ],
     "sourceProjects": [
       "AIMultiAgentClassroom"
@@ -7342,6 +7439,13 @@
       "education-training/career-path-agent-for-students"
     ],
     "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIMultiAgentClassroom",
+        "path": "frontend/src/pages/TeacherDashboard.js:1",
+        "route": "/teacher?tool=parent-communication",
+        "originApp": "education-training/career-path-agent-for-students"
+      },
       {
         "kind": "api",
         "sourceProject": "AIMultiAgentClassroom",
@@ -7462,6 +7566,32 @@
         "sourceProject": "AICareerPathAgentForStudents",
         "path": "frontend/src/pages/PeerMentorMatch.jsx",
         "route": "/PeerMentorMatch",
+        "originApp": "education-training/career-path-agent-for-students"
+      }
+    ]
+  },
+  {
+    "name": "Peer Mentor Match Advisor",
+    "canonicalKey": "advisor match mentor peer",
+    "aliases": [],
+    "kinds": [
+      "ai-page"
+    ],
+    "routes": [
+      "/ai-tools?tool=peer-match-advisor"
+    ],
+    "sourceProjects": [
+      "AILearningDevelopmentPath"
+    ],
+    "consolidatedFromApps": [
+      "education-training/career-path-agent-for-students"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AILearningDevelopmentPath",
+        "path": "frontend/src/pages/AIToolsPage.js:5",
+        "route": "/ai-tools?tool=peer-match-advisor",
         "originApp": "education-training/career-path-agent-for-students"
       }
     ]
@@ -9517,11 +9647,13 @@
     "canonicalKey": "debate socratic",
     "aliases": [],
     "kinds": [
+      "ai-page",
       "api",
       "page"
     ],
     "routes": [
       "/SocraticDebate",
+      "/debate/:id?tool=socratic-debate",
       "/socratic-debate"
     ],
     "sourceProjects": [
@@ -9531,6 +9663,13 @@
       "education-training/career-path-agent-for-students"
     ],
     "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIMultiAgentClassroom",
+        "path": "frontend/src/pages/SocraticDebate.js:76",
+        "route": "/debate/:id?tool=socratic-debate",
+        "originApp": "education-training/career-path-agent-for-students"
+      },
       {
         "kind": "api",
         "sourceProject": "AIMultiAgentClassroom",
@@ -9706,9 +9845,11 @@
     "canonicalKey": "planner succession",
     "aliases": [],
     "kinds": [
+      "ai-page",
       "api"
     ],
     "routes": [
+      "/ai-tools?tool=succession-planner",
       "/succession-planner"
     ],
     "sourceProjects": [
@@ -9718,6 +9859,13 @@
       "education-training/career-path-agent-for-students"
     ],
     "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AILearningDevelopmentPath",
+        "path": "frontend/src/pages/AIToolsPage.js:27",
+        "route": "/ai-tools?tool=succession-planner",
+        "originApp": "education-training/career-path-agent-for-students"
+      },
       {
         "kind": "api",
         "sourceProject": "AILearningDevelopmentPath",
@@ -10141,9 +10289,11 @@
     "canonicalKey": "analyzer effectiveness training",
     "aliases": [],
     "kinds": [
+      "ai-page",
       "api"
     ],
     "routes": [
+      "/ai-tools?tool=training-effectiveness-analyzer",
       "/training-effectiveness-analyzer"
     ],
     "sourceProjects": [
@@ -10153,6 +10303,13 @@
       "education-training/career-path-agent-for-students"
     ],
     "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AILearningDevelopmentPath",
+        "path": "frontend/src/pages/AIToolsPage.js:16",
+        "route": "/ai-tools?tool=training-effectiveness-analyzer",
+        "originApp": "education-training/career-path-agent-for-students"
+      },
       {
         "kind": "api",
         "sourceProject": "AILearningDevelopmentPath",
@@ -10223,9 +10380,11 @@
     "canonicalKey": "response tutor",
     "aliases": [],
     "kinds": [
+      "ai-page",
       "api"
     ],
     "routes": [
+      "/session/:id?tool=tutor-response",
       "/tutor-response"
     ],
     "sourceProjects": [
@@ -10235,6 +10394,13 @@
       "education-training/career-path-agent-for-students"
     ],
     "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIMultiAgentClassroom",
+        "path": "frontend/src/pages/ClassroomSession.js:188",
+        "route": "/session/:id?tool=tutor-response",
+        "originApp": "education-training/career-path-agent-for-students"
+      },
       {
         "kind": "api",
         "sourceProject": "AIMultiAgentClassroom",
